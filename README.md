@@ -10,7 +10,7 @@
 * 如果不进行measureView()，则headerHeight = header.getMeasuredHeight()得到的高度为0；
 * 测量 = 测量值 + 测量模式
 * 测量模式：（3种）
-     * **MeasureSpec.EXACTLY：精确尺寸，100dp，FILL_PARENT**
+  * **MeasureSpec.EXACTLY：精确尺寸，100dp，FILL_PARENT**
  	* **MeasureSpec.AT_MOST：最大尺寸，WRAP_CONTENT，控件大小一般随着控件的子空间或内容进行变化**
  	* **MeasureSpec.UNSPECIFIED：未指定尺寸，少见，一般都是父控件是AdapterView**
 
